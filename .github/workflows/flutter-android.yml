@@ -1,0 +1,125 @@
+name: Flutter Android Release Build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Available to every step below. ANDROID_KEYSTORE_PATH is set
+# separately, only if the keystore secret was actually decoded — see
+# the "Decode release keystore" step. If none of these are configured
+# as repository secrets, they resolve to empty strings, and
+# android/app/build.gradle.kts's own fallback logic signs the release
+# build with the debug keystore instead of failing the build — see
+# the README's Continuous Integration section for how to set these
+# secrets up for a real signed build.
+env:
+  ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+  ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+  ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+
+jobs:
+  build:
+    name: Build release APK & App Bundle
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Analyze
+        run: flutter analyze
+
+      - name: Run tests
+        run: flutter test
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      # Pins `gradle` on PATH to a version known compatible with the
+      # AGP version in android/settings.gradle.kts, rather than
+      # whatever Gradle happens to be pre-installed on the runner.
+      # This step exists because of a real failure: GitHub's hosted
+      # runners update their default Gradle over time, and when it
+      # crossed 9.6.0, project configuration started failing before
+      # the "Generate Gradle wrapper" step below could even run —
+      # Gradle 9.6.0 removed an internal API AGP 8.x still depends on,
+      # so applying the `com.android.application` plugin itself threw,
+      # regardless of what version that step's own `--gradle-version`
+      # flag asked for. Bumping the *target* Gradle version alone
+      # doesn't fix this: the failure happens during bootstrap, before
+      # the target version is ever consulted. Keep this pinned version
+      # and the AGP version in android/settings.gradle.kts compatible
+      # with each other; see
+      # https://docs.gradle.org/current/userguide/upgrading_version_9.html#agp_8x_incompatible.
+      - name: Set up Gradle 8.14.5
+        uses: gradle/actions/setup-gradle@v6
+        with:
+          gradle-version: "8.14.5"
+
+      # The committed android/ folder omits the Gradle wrapper binaries
+      # (gradlew, gradlew.bat, gradle-wrapper.jar) — see the README for
+      # why — so this regenerates them from the version pinned in
+      # android/gradle/wrapper/gradle-wrapper.properties before any
+      # Gradle-driven step runs. Now runs under the pinned Gradle 8.14.5
+      # from the step above rather than the runner's system Gradle.
+      - name: Generate Gradle wrapper
+        working-directory: android
+        run: gradle wrapper --gradle-version 8.14.5
+
+      # Decodes the ANDROID_KEYSTORE_BASE64 secret (the release
+      # keystore .jks/.keystore file, base64-encoded) into a real file
+      # and points ANDROID_KEYSTORE_PATH at it for the build steps
+      # below. If that secret isn't set, this step just logs that and
+      # moves on — build.gradle.kts's own check (all four signing
+      # values present) is what actually decides whether to sign for
+      # real or fall back to debug, so there's nothing else to branch
+      # on here.
+      - name: Decode release keystore, if configured
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: |
+          if [ -n "$ANDROID_KEYSTORE_BASE64" ]; then
+            echo "$ANDROID_KEYSTORE_BASE64" | base64 --decode > "$GITHUB_WORKSPACE/android/app/release.keystore"
+            echo "ANDROID_KEYSTORE_PATH=$GITHUB_WORKSPACE/android/app/release.keystore" >> "$GITHUB_ENV"
+          else
+            echo "No ANDROID_KEYSTORE_BASE64 secret set — this build will fall back to debug signing (see build.gradle.kts)."
+          fi
+
+      - name: Build release APK
+        run: flutter build apk --release
+
+      # The App Bundle (.aab), not the APK, is what actually gets
+      # uploaded to Play Console for a real submission — the APK above
+      # is kept for the existing sideload/adb-install workflow this
+      # project's README already documents.
+      - name: Build release App Bundle
+        run: flutter build appbundle --release
+
+      - name: Remove decoded keystore
+        if: always()
+        run: rm -f "$GITHUB_WORKSPACE/android/app/release.keystore"
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+          retention-days: 3
+
+      - name: Upload App Bundle artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-aab
+          path: build/app/outputs/bundle/release/app-release.aab
+          retention-days: 3

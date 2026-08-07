@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Widget metadata for HydrationWidgetProvider.
+
+  updatePeriodMillis is set to Android's practical minimum (30
+  minutes) purely as a periodic safety net — the widget's actual
+  "live" updates happen event-driven, via explicit
+  AppWidgetManager.updateAppWidget calls from
+  HomeWidgetSyncService (whenever HydrationService's real data
+  changes) and from the widget's own tap handler (see
+  HydrationWidgetProvider.kt) — not from waiting on this timer, which
+  the OS wouldn't honor faster than 30 minutes even if a shorter
+  value were set here.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="180dp"
+    android:minHeight="90dp"
+    android:targetCellWidth="3"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="1800000"
+    android:initialLayout="@layout/hydration_widget"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:previewImage="@mipmap/ic_launcher"
+    android:description="@string/hydration_widget_description"/>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Rounded dark card background for both home-screen widgets, matching
+  AppTheme's dark surface color (lib/core/theme/app_theme.dart's
+  _darkElevatedSurface) rather than Android's default white widget
+  background — kept as its own drawable, not a hardcoded color on
+  each layout's root view, so both widgets are guaranteed to look
+  identical and only need updating in one place if that color changes.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#1C1C1C"/>
+    <corners android:radius="20dp"/>
+</shape>

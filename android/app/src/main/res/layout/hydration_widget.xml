@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Layout for HydrationWidgetProvider. Deliberately simple and built
+  only from view types RemoteViews has always supported
+  (LinearLayout, TextView, ProgressBar) — no ConstraintLayout, no
+  dynamically-sized list of "glass" icons the way
+  HydrationCheckInCard shows in-app (that needs a RemoteViewsService
+  collection widget, real added complexity this first version isn't
+  taking on) — a progress bar plus one tap target instead.
+
+  The tap target is a TextView styled to look like a button rather
+  than an actual <Button>, specifically to avoid Button's own
+  platform-default padding/min-height fighting with
+  widget_button_background's custom shape.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hydration"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/hydration_widget_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 of 8 glasses"
+            android:textColor="#B0B0B0"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/hydration_widget_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="10dp"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="#2962FF"
+        android:progressBackgroundTint="#2A2A2A"/>
+
+    <TextView
+        android:id="@+id/hydration_widget_add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/widget_button_background"
+        android:text="+ Log a Glass"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+</LinearLayout>

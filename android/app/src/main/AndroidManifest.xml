@@ -1,0 +1,120 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Needed to actually show local notifications on Android 13+. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <!-- No SCHEDULE_EXACT_ALARM / USE_EXACT_ALARM here, deliberately.
+         Every reminder AppNotifications schedules (hydration,
+         skincare, daily routine, posture) uses
+         AndroidScheduleMode.inexactAllowWhileIdle — none of them are
+         the kind of precisely-timed, core-functionality alarm Google
+         Play's Exact Alarm Permission policy actually allows (that
+         list is narrow: alarm/timer apps, calendar apps showing event
+         notifications, and similar — a habit nudge being a few
+         minutes late during Doze doesn't qualify, and Play Console
+         review can reject a listing that declares this permission
+         without a use case that fits). Requesting it here would also
+         be pure downside: no user-facing benefit for reminders this
+         forgiving of timing, plus exact alarms cost more battery and
+         sit closer to Play's separate battery-usage policy than
+         inexact ones. If a genuinely time-critical feature is ever
+         added (not any of the four reminder kinds above), that's the
+         time to reconsider — not before. -->
+    <!-- Re-schedules today's reminders after a device reboot, since
+         Android clears all pending alarms on boot. -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application
+        android:label="ChadMate"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <!-- Shows a "splash screen" style theme until Flutter draws
+                 its first frame. -->
+            <meta-data
+              android:name="io.flutter.embedding.android.NormalTheme"
+              android:resource="@style/NormalTheme"
+              />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!-- Required by Flutter's tooling for build introspection. -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+
+        <!-- flutter_local_notifications: redelivers scheduled posture
+             reminders after the device reboots or the app is
+             updated, since Android clears pending alarms in both
+             cases. -->
+        <receiver
+            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+            android:exported="false" />
+        <receiver
+            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- Home-screen widgets: hydration and skincare check-in.
+             Unlike the two receivers above, these need
+             android:exported="true" — the launcher app (a different
+             process from ChadMate's own) is what actually sends the
+             APPWIDGET_UPDATE broadcast and the widget's own tap
+             action, and Android 12+ (API 31+) requires `exported` to
+             be declared explicitly for every receiver with an
+             intent-filter rather than inferring it, so leaving this
+             false (or unset) would silently break both widgets on
+             any current device.
+
+             Each provider handles its own tap (see
+             HydrationWidgetProvider.kt / SkincareWidgetProvider.kt)
+             by writing straight to the same SharedPreferences file
+             home_widget already uses, rather than waking the Flutter
+             engine — so a tap works instantly even if the app hasn't
+             been opened in a while. HomeWidgetSyncService reconciles
+             that into the real HydrationService/SkincareService data
+             the next time the app itself is opened. -->
+        <receiver
+            android:name=".HydrationWidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.unbrokenself.chadmate.ACTION_ADD_GLASS"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/hydration_widget_info"/>
+        </receiver>
+        <receiver
+            android:name=".SkincareWidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.unbrokenself.chadmate.ACTION_CHECK_STEP"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/skincare_widget_info"/>
+        </receiver>
+
+        <!-- Required by the Google Mobile Ads SDK — google_mobile_ads
+             reads this at MobileAds.instance.initialize() time and the
+             app crashes on startup without it. This is ChadMate's real
+             AdMob App ID, not a placeholder. -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9035742345664521~6576403209"/>
+    </application>
+</manifest>

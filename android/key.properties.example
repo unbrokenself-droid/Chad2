@@ -1,0 +1,24 @@
+# Template for a LOCAL signed release build — copy this file to
+# android/key.properties (gitignored, never commit the real one) and
+# fill in real values.
+#
+# This file is only for building a signed release on your own
+# machine. CI doesn't read this file at all — it gets the same four
+# values from GitHub Actions secrets instead
+# (ANDROID_KEYSTORE_BASE64, ANDROID_KEYSTORE_PASSWORD,
+# ANDROID_KEY_ALIAS, ANDROID_KEY_PASSWORD; see the README's
+# Continuous Integration section for how those are set up and what
+# each one corresponds to below).
+#
+# Don't have a release keystore yet? Generate one with:
+#   keytool -genkey -v -keystore release.keystore -alias chadmate \
+#     -keyalg RSA -keysize 2048 -validity 10000
+# Keep the resulting release.keystore file and both passwords
+# somewhere safe outside this repo (e.g. a password manager) — if you
+# lose them, you permanently lose the ability to publish updates to
+# whatever app was first uploaded to Play Console with this key.
+
+storePassword=your-keystore-password
+keyPassword=your-key-password
+keyAlias=chadmate
+storeFile=/absolute/path/to/release.keystore

@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The INTERNET permission is required for Flutter's debug/profile
+         builds to connect to the observatory/DevTools; it is not
+         included in the release manifest. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

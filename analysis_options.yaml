@@ -1,0 +1,21 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Disabled because its suggested fix is not expressible in Dart for
+    # the pattern this codebase uses everywhere. Services take their
+    # dependencies as *named* parameters bound to *private* fields
+    # (e.g. `StreakService({required HydrationService hydration}) :
+    # _hydration = hydration`). The lint asks for an initializing formal
+    # (`this._hydration`), but Dart forbids named parameters beginning
+    # with an underscore, so following it wouldn't compile. The only
+    # ways to satisfy it would be making the fields public or the
+    # parameters positional — both worse than the current code. Left on
+    # would mean ~16 permanent info-level hits, which trains people to
+    # ignore analyzer output.
+    prefer_initializing_formals: false
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"

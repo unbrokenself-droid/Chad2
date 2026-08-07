@@ -1,0 +1,971 @@
+[
+  {
+    "id": "jaw-release-drop",
+    "title": "Jaw Release Drop",
+    "description": "A gentle warm-up that relaxes an overactive jaw and eases tension from clenching or grinding.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "jawline",
+    "category": "jawRelaxation",
+    "icon": "expand_more",
+    "videoAsset": "assets/videos/jaw-release-drop.mp4",
+    "instructions": [
+      "Sit or stand tall with your shoulders relaxed.",
+      "Let your lips part slightly and allow your jaw to hang loose and heavy.",
+      "Slowly open your mouth about halfway, then let it drop closed without clenching.",
+      "Repeat for 10 slow, relaxed reps, breathing steadily throughout."
+    ],
+    "precautions": [
+      "Stop if you feel sharp pain or clicking in the jaw joint; consult a dentist or doctor if pain continues."
+    ]
+  },
+  {
+    "id": "masseter-massage-release",
+    "title": "Masseter Massage Release",
+    "description": "Finger massage over the main chewing muscle to help ease tightness built up from stress or teeth grinding.",
+    "durationSeconds": 120,
+    "difficulty": "beginner",
+    "bodyPart": "jawline",
+    "category": "jawRelaxation",
+    "icon": "pan_tool",
+    "videoAsset": "assets/videos/masseter-massage-release.mp4",
+    "instructions": [
+      "Place two fingertips on the muscle that bulges when you clench your back teeth.",
+      "Press with light-to-medium pressure and make small circular motions.",
+      "Work the circles slowly along the muscle from ear to jaw corner for 30 seconds per side.",
+      "Finish by gently shaking out your jaw."
+    ],
+    "precautions": [
+      "Use light pressure only; avoid this if you have a recent jaw injury or dental procedure."
+    ]
+  },
+  {
+    "id": "tongue-to-palate-relaxer",
+    "title": "Tongue-to-Palate Relaxer",
+    "description": "A mindfulness-based habit reset that discourages jaw clenching throughout the day.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "jawline",
+    "category": "jawRelaxation",
+    "icon": "psychology",
+    "videoAsset": "assets/videos/tongue-to-palate-relaxer.mp4",
+    "instructions": [
+      "Rest the tip of your tongue lightly against the roof of your mouth, just behind your front teeth.",
+      "Let your back teeth come apart so they are not touching.",
+      "Relax your lips together and breathe slowly through your nose.",
+      "Hold this resting position for one minute, noticing when your jaw wants to tighten."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "wide-yawn-stretch",
+    "title": "Wide Yawn Stretch",
+    "description": "A big, controlled yawn-like stretch that loosens the jaw and surrounding muscles after long periods of talking or screen focus.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "jawline",
+    "category": "jawRelaxation",
+    "icon": "air",
+    "videoAsset": "assets/videos/wide-yawn-stretch.mp4",
+    "instructions": [
+      "Open your mouth slowly as if starting a yawn, going only as wide as feels comfortable.",
+      "Hold the open stretch for 2 to 3 seconds.",
+      "Close slowly and let your jaw hang loose for a moment.",
+      "Repeat 8 to 10 times, easing off if you feel any strain."
+    ],
+    "precautions": [
+      "Do not force the stretch to maximum width, especially if you have a history of jaw popping or TMJ discomfort."
+    ]
+  },
+  {
+    "id": "slow-neck-circles",
+    "title": "Slow Neck Circles",
+    "description": "A gentle full-range movement that warms up the neck and eases stiffness from sitting or screen time.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "neck",
+    "category": "neckMobility",
+    "icon": "sync",
+    "videoAsset": "assets/videos/slow-neck-circles.mp4",
+    "instructions": [
+      "Sit tall with your shoulders relaxed away from your ears.",
+      "Slowly drop your chin toward your chest.",
+      "Roll your head gently to one side, back, and to the other side in a smooth circle.",
+      "Complete 5 slow circles, then reverse direction for 5 more."
+    ],
+    "precautions": [
+      "Keep the movement slow and pain-free; if you have a diagnosed neck or disc condition, roll side-to-side instead of completing a full circle."
+    ]
+  },
+  {
+    "id": "chin-tucks",
+    "title": "Chin Tucks",
+    "description": "A posture-focused movement that strengthens deep neck muscles and counters forward-head positioning from phone or laptop use.",
+    "durationSeconds": 60,
+    "difficulty": "intermediate",
+    "bodyPart": "neck",
+    "category": "neckMobility",
+    "icon": "straighten",
+    "videoAsset": "assets/videos/chin-tucks.mp4",
+    "instructions": [
+      "Sit or stand tall, looking straight ahead.",
+      "Keeping your eyes level, gently draw your chin straight back, creating a slight double-chin feeling.",
+      "Hold for 3 seconds, feeling a stretch at the base of the skull.",
+      "Release slowly and repeat 10 times."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "ear-to-shoulder-tilt",
+    "title": "Ear-to-Shoulder Tilt",
+    "description": "A side stretch that releases tightness along the side of the neck, common after stress or poor sleep posture.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "neck",
+    "category": "neckMobility",
+    "icon": "height",
+    "videoAsset": "assets/videos/ear-to-shoulder-tilt.mp4",
+    "instructions": [
+      "Sit tall with shoulders relaxed and down.",
+      "Slowly tilt your right ear toward your right shoulder until you feel a gentle stretch on the left side of your neck.",
+      "Hold for 15 to 20 seconds, breathing steadily.",
+      "Return to center and repeat on the left side."
+    ],
+    "precautions": [
+      "Avoid pulling on your head with your hand; let gravity provide the stretch instead."
+    ]
+  },
+  {
+    "id": "over-the-shoulder-neck-turn",
+    "title": "Over-the-Shoulder Neck Turn",
+    "description": "A rotational stretch that improves how far you can turn your head, useful for driving and everyday mobility.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "neck",
+    "category": "neckMobility",
+    "icon": "rotate_right",
+    "videoAsset": "assets/videos/over-the-shoulder-neck-turn.mp4",
+    "instructions": [
+      "Sit tall facing forward with your shoulders level.",
+      "Slowly turn your head to look over your right shoulder as far as comfortable.",
+      "Hold for 10 to 15 seconds, then return to center.",
+      "Repeat on the left side, then complete 3 rounds per side."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "shoulder-blade-squeezes",
+    "title": "Shoulder Blade Squeezes",
+    "description": "A posture-training move that activates the upper back muscles that pull rounded shoulders back into alignment.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "shoulders",
+    "category": "shoulderPosture",
+    "icon": "accessibility_new",
+    "videoAsset": "assets/videos/shoulder-blade-squeezes.mp4",
+    "instructions": [
+      "Sit or stand tall with arms relaxed at your sides.",
+      "Squeeze your shoulder blades together and slightly down, as if holding a pencil between them.",
+      "Hold for 5 seconds without shrugging your shoulders up.",
+      "Release slowly and repeat 12 times."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "shoulder-rolls",
+    "title": "Shoulder Rolls",
+    "description": "A simple mobility warm-up that loosens tight shoulders and upper trapezius muscles.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "shoulders",
+    "category": "shoulderPosture",
+    "icon": "loop",
+    "videoAsset": "assets/videos/shoulder-rolls.mp4",
+    "instructions": [
+      "Stand or sit tall with arms relaxed.",
+      "Lift both shoulders up toward your ears.",
+      "Roll them back and down in a smooth circular motion.",
+      "Complete 10 rolls backward, then 10 rolls forward."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "wall-angels",
+    "title": "Wall Angels",
+    "description": "A postural exercise that trains the shoulders and upper back to sit in better alignment against gravity.",
+    "durationSeconds": 120,
+    "difficulty": "advanced",
+    "bodyPart": "shoulders",
+    "category": "shoulderPosture",
+    "icon": "open_in_full",
+    "videoAsset": "assets/videos/wall-angels.mp4",
+    "instructions": [
+      "Stand with your back, head, and hips against a wall, feet a few inches away from it.",
+      "Raise your arms to shoulder height with elbows bent, backs of hands touching the wall.",
+      "Slowly slide your arms upward while keeping contact with the wall, then lower back down.",
+      "Repeat for 10 slow reps, keeping your lower back gently against the wall."
+    ],
+    "precautions": [
+      "Only move through a range where your arms and back can stay near the wall comfortably; do not force full extension."
+    ]
+  },
+  {
+    "id": "doorway-chest-opener",
+    "title": "Doorway Chest Opener",
+    "description": "A stretch that counteracts rounded-shoulder posture by opening the chest and front of the shoulders.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "shoulders",
+    "category": "shoulderPosture",
+    "icon": "fitness_center",
+    "videoAsset": "assets/videos/doorway-chest-opener.mp4",
+    "instructions": [
+      "Stand in a doorway and raise both arms to shoulder height, resting forearms on the frame.",
+      "Step one foot forward through the doorway until you feel a gentle stretch across your chest.",
+      "Hold for 20 to 30 seconds while breathing steadily.",
+      "Step back and repeat 2 to 3 times."
+    ],
+    "precautions": [
+      "Avoid this stretch if you have a shoulder injury, and ease out of it immediately if you feel pinching or sharp pain."
+    ]
+  },
+  {
+    "id": "facial-lymphatic-drainage-massage",
+    "title": "Facial Lymphatic Drainage Massage",
+    "description": "A gentle stroking massage that follows the lymph pathways to support natural drainage and ease morning puffiness.",
+    "durationSeconds": 180,
+    "difficulty": "beginner",
+    "bodyPart": "fullFace",
+    "category": "facialMassage",
+    "icon": "waves",
+    "videoAsset": "assets/videos/facial-lymphatic-drainage-massage.mp4",
+    "instructions": [
+      "Start with clean hands, optionally using a facial oil for glide.",
+      "Using flat fingers, gently sweep from the center of your forehead outward to your temples.",
+      "Continue sweeping from the sides of your nose out across your cheeks toward your ears.",
+      "Finish by gently stroking from your jawline down the sides of your neck.",
+      "Repeat the full sequence 3 times using light pressure."
+    ],
+    "precautions": [
+      "Use light pressure only, and avoid massaging over active breakouts, sunburn, or a skin infection.",
+      "Do not press directly on swollen lymph nodes."
+    ]
+  },
+  {
+    "id": "forehead-tension-release",
+    "title": "Forehead Tension Release",
+    "description": "Circular pressure over the forehead and temples to ease tension that builds up from squinting or frowning.",
+    "durationSeconds": 120,
+    "difficulty": "beginner",
+    "bodyPart": "forehead",
+    "category": "facialMassage",
+    "icon": "spa",
+    "videoAsset": "assets/videos/forehead-tension-release.mp4",
+    "instructions": [
+      "Place your fingertips at the center of your forehead.",
+      "Make small circular motions, working outward toward your temples.",
+      "At your temples, pause and apply gentle pressure for 5 seconds.",
+      "Repeat the outward sweeps for 1 to 2 minutes."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "cheek-circulation-massage",
+    "title": "Cheek Circulation Massage",
+    "description": "A warming circular massage over the cheeks that can temporarily leave skin looking more awake and rosy.",
+    "durationSeconds": 120,
+    "difficulty": "beginner",
+    "bodyPart": "cheeks",
+    "category": "facialMassage",
+    "icon": "favorite_border",
+    "videoAsset": "assets/videos/cheek-circulation-massage.mp4",
+    "instructions": [
+      "Rub your palms together briefly to warm them.",
+      "Cup your cheeks with your fingers and make gentle circular motions.",
+      "Gradually work from the center of your cheeks toward your ears.",
+      "Continue for 1 to 2 minutes, using light, comfortable pressure."
+    ],
+    "precautions": [
+      "Skip this massage if you have active acne, a rosacea flare-up, or broken skin on the cheeks."
+    ]
+  },
+  {
+    "id": "gentle-under-eye-tapping",
+    "title": "Gentle Under-Eye Tapping",
+    "description": "Light tapping around the eye area to support circulation and help the skin feel refreshed after a night of limited sleep.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "eyes",
+    "category": "facialMassage",
+    "icon": "touch_app",
+    "videoAsset": "assets/videos/gentle-under-eye-tapping.mp4",
+    "instructions": [
+      "Wash your hands before touching the delicate eye area.",
+      "Using your ring fingers, tap gently underneath each eye, moving from the inner corner outward.",
+      "Keep the taps light and quick, like light raindrops.",
+      "Continue for 30 to 60 seconds, then rest your hands."
+    ],
+    "precautions": [
+      "Use very light pressure, since the skin under the eyes is thin and delicate."
+    ]
+  },
+  {
+    "id": "jaw-to-ear-sweep",
+    "title": "Jaw-to-Ear Sweep",
+    "description": "A smoothing massage stroke along the jawline that eases tension where the jaw meets the ear.",
+    "durationSeconds": 120,
+    "difficulty": "beginner",
+    "bodyPart": "jawline",
+    "category": "facialMassage",
+    "icon": "swipe",
+    "videoAsset": "assets/videos/jaw-to-ear-sweep.mp4",
+    "instructions": [
+      "Place your fingertips at the center of your chin.",
+      "Sweep firmly but gently along your jawline out toward your ears.",
+      "At your ears, apply gentle circular pressure for a few seconds.",
+      "Repeat the sweeping motion 8 to 10 times."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "diaphragmatic-breathing",
+    "title": "Diaphragmatic Breathing",
+    "description": "Deep belly breathing that activates the relaxation response and can ease tension held in the face and jaw.",
+    "durationSeconds": 180,
+    "difficulty": "beginner",
+    "bodyPart": "wholeBody",
+    "category": "breathing",
+    "icon": "self_improvement",
+    "instructions": [
+      "Sit or lie down comfortably with one hand on your chest and one on your belly.",
+      "Inhale slowly through your nose, letting your belly rise while your chest stays relatively still.",
+      "Exhale slowly through pursed lips, feeling your belly fall.",
+      "Continue for 10 to 15 slow breaths."
+    ],
+    "precautions": [
+      "Stop and breathe normally if you feel lightheaded."
+    ]
+  },
+  {
+    "id": "box-breathing",
+    "title": "Box Breathing",
+    "description": "A structured breathing pattern used to calm the nervous system before a stressful moment or at the end of the day.",
+    "durationSeconds": 120,
+    "difficulty": "intermediate",
+    "bodyPart": "wholeBody",
+    "category": "breathing",
+    "icon": "crop_square",
+    "instructions": [
+      "Inhale slowly through your nose for a count of 4.",
+      "Hold your breath gently for a count of 4.",
+      "Exhale slowly through your mouth for a count of 4.",
+      "Hold empty for a count of 4, then repeat the cycle 6 to 8 times."
+    ],
+    "precautions": [
+      "Skip the breath holds and breathe naturally if you have a respiratory or cardiovascular condition, or if holding your breath feels uncomfortable."
+    ]
+  },
+  {
+    "id": "extended-exhale-breathing",
+    "title": "Extended Exhale Breathing",
+    "description": "A longer-exhale breathing rhythm that encourages the body to shift out of a stressed state.",
+    "durationSeconds": 120,
+    "difficulty": "intermediate",
+    "bodyPart": "wholeBody",
+    "category": "breathing",
+    "icon": "nightlight_round",
+    "instructions": [
+      "Inhale gently through your nose for a count of 4.",
+      "Exhale slowly through your mouth for a count of 8, as if fogging a mirror.",
+      "Let your shoulders and jaw soften with each exhale.",
+      "Repeat for 8 to 10 rounds."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "humming-breath",
+    "title": "Humming Breath",
+    "description": "A gentle vibration-based breathing practice, inspired by traditional Bhramari breathing, that can quiet a busy mind.",
+    "durationSeconds": 120,
+    "difficulty": "beginner",
+    "bodyPart": "wholeBody",
+    "category": "breathing",
+    "icon": "graphic_eq",
+    "instructions": [
+      "Sit comfortably and close your eyes if that feels comfortable.",
+      "Take a slow breath in through your nose.",
+      "As you exhale, hum gently with your mouth closed, feeling a light vibration in your face.",
+      "Repeat for 8 to 10 rounds at a comfortable volume."
+    ],
+    "precautions": [
+      "Keep the humming soft, and stop if you notice any ear discomfort or pressure."
+    ]
+  },
+  {
+    "id": "upper-trapezius-stretch",
+    "title": "Upper Trapezius Stretch",
+    "description": "A targeted stretch for the muscle that often carries stress between the neck and shoulder.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "neck",
+    "category": "stretching",
+    "icon": "unfold_more",
+    "videoAsset": "assets/videos/upper-trapezius-stretch.mp4",
+    "instructions": [
+      "Sit tall and relax your shoulders down away from your ears.",
+      "Reach your right arm behind your back, or let it hang relaxed at your side.",
+      "Tilt your head to the left, optionally using your left hand for very light, gentle overpressure.",
+      "Hold for 20 to 30 seconds, then switch sides."
+    ],
+    "precautions": [
+      "Apply hand pressure very lightly if at all, and stop if you feel tingling or numbness in your arm or hand."
+    ]
+  },
+  {
+    "id": "levator-scapulae-stretch",
+    "title": "Levator Scapulae Stretch",
+    "description": "A diagonal neck stretch that targets a common source of tightness between the neck and shoulder blade.",
+    "durationSeconds": 60,
+    "difficulty": "intermediate",
+    "bodyPart": "neck",
+    "category": "stretching",
+    "icon": "swap_horiz",
+    "videoAsset": "assets/videos/levator-scapulae-stretch.mp4",
+    "instructions": [
+      "Sit tall and turn your head about 45 degrees to the right.",
+      "Gently tilt your chin down toward your right armpit until you feel a stretch on the back-left side of your neck.",
+      "Rest your right hand lightly on the back of your head for light overpressure if that feels comfortable.",
+      "Hold for 20 to 30 seconds, then repeat on the other side."
+    ],
+    "precautions": [
+      "Use only very light hand pressure, and avoid this stretch if you have a herniated disc or acute neck injury without medical guidance."
+    ]
+  },
+  {
+    "id": "cat-cow-spinal-stretch",
+    "title": "Cat-Cow Spinal Stretch",
+    "description": "A flowing spinal movement that releases tension in the upper back and neck, which can in turn contribute to facial and jaw tightness.",
+    "durationSeconds": 120,
+    "difficulty": "beginner",
+    "bodyPart": "wholeBody",
+    "category": "stretching",
+    "icon": "pets",
+    "videoAsset": "assets/videos/cat-cow-spinal-stretch.mp4",
+    "instructions": [
+      "Come onto your hands and knees in a tabletop position, or sit tall if a floor position is not comfortable.",
+      "Inhale, drop your belly, and lift your chest and chin toward the ceiling (cow pose).",
+      "Exhale, round your spine, and tuck your chin toward your chest (cat pose).",
+      "Flow slowly between the two positions for 8 to 10 breaths."
+    ],
+    "precautions": [
+      "Move within a comfortable range, and avoid forcing the neck position if you have neck pain."
+    ]
+  },
+  {
+    "id": "clasped-hands-chest-stretch",
+    "title": "Clasped-Hands Chest Stretch",
+    "description": "A behind-the-back stretch that opens the chest and front shoulders, complementing better upright posture.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "shoulders",
+    "category": "stretching",
+    "icon": "accessibility",
+    "videoAsset": "assets/videos/clasped-hands-chest-stretch.mp4",
+    "instructions": [
+      "Stand or sit tall and clasp your hands together behind your back.",
+      "Straighten your arms and gently lift your hands away from your lower back.",
+      "Lift your chest slightly and roll your shoulders back and down.",
+      "Hold for 20 to 30 seconds, breathing steadily."
+    ],
+    "precautions": [
+      "Skip this stretch, or keep the range very small, if you have a shoulder injury or limited shoulder mobility."
+    ]
+  },
+  {
+    "id": "resisted-jaw-opening",
+    "title": "Resisted Jaw Opening",
+    "description": "A light isometric hold that builds control and stability in the muscles that open the jaw.",
+    "durationSeconds": 90,
+    "difficulty": "intermediate",
+    "bodyPart": "jawline",
+    "category": "jawRelaxation",
+    "icon": "pan_tool",
+    "videoAsset": "assets/videos/resisted-jaw-opening.mp4",
+    "instructions": [
+      "Place two fingers gently under your chin.",
+      "Slowly open your mouth while your fingers press up with light resistance.",
+      "Hold the halfway-open position for 5 seconds, keeping the resistance gentle.",
+      "Release and close slowly. Repeat 8 times."
+    ],
+    "precautions": [
+      "Use only light finger pressure \u2014 this should feel like light control, not a strong push. Stop if you feel any jaw joint pain or clicking."
+    ]
+  },
+  {
+    "id": "lateral-jaw-glide",
+    "title": "Lateral Jaw Glide",
+    "description": "A side-to-side jaw movement that improves lateral mobility and helps identify uneven tension between sides.",
+    "durationSeconds": 90,
+    "difficulty": "intermediate",
+    "bodyPart": "jawline",
+    "category": "jawRelaxation",
+    "icon": "swap_horiz",
+    "videoAsset": "assets/videos/lateral-jaw-glide.mp4",
+    "instructions": [
+      "Relax your jaw and let your lips part slightly.",
+      "Slowly slide your lower jaw to the right as far as comfortable, without forcing it.",
+      "Return to center, then slide slowly to the left.",
+      "Continue alternating sides slowly for 8 to 10 total glides."
+    ],
+    "precautions": [
+      "Move slowly and stop well short of your maximum range. Skip this exercise if lateral movement causes pain or if you have a diagnosed TMJ disorder."
+    ]
+  },
+  {
+    "id": "jaw-isometric-hold-sequence",
+    "title": "Jaw Isometric Hold Sequence",
+    "description": "A longer sequence of gentle resisted holds in every direction, building more complete control over jaw movement.",
+    "durationSeconds": 180,
+    "difficulty": "advanced",
+    "bodyPart": "jawline",
+    "category": "jawRelaxation",
+    "icon": "fitness_center",
+    "videoAsset": "assets/videos/jaw-isometric-hold-sequence.mp4",
+    "instructions": [
+      "Using light finger pressure, resist your jaw as you open slightly. Hold 5 seconds.",
+      "Press a finger against one side of your chin and resist as you push into it. Hold 5 seconds, then switch sides.",
+      "Press a finger against your chin and gently resist as you push forward. Hold 5 seconds.",
+      "Rest for 10 seconds, then repeat the full sequence twice more."
+    ],
+    "precautions": [
+      "Every hold should use light pressure only \u2014 this is about control, not strength. Stop the entire sequence if you notice any pain, clicking, or locking, and check with a dentist or doctor before continuing."
+    ]
+  },
+  {
+    "id": "full-jaw-mobility-flow",
+    "title": "Full Jaw Mobility Flow",
+    "description": "A longer, combined routine that moves the jaw through opening, gliding, and circular motion in one flowing sequence.",
+    "durationSeconds": 180,
+    "difficulty": "advanced",
+    "bodyPart": "jawline",
+    "category": "jawRelaxation",
+    "icon": "loop",
+    "videoAsset": "assets/videos/full-jaw-mobility-flow.mp4",
+    "instructions": [
+      "Start with 5 slow, controlled jaw drops, pausing briefly at the bottom of each.",
+      "Move into 8 slow side-to-side glides, keeping the motion smooth.",
+      "Finish with 5 gentle circles in each direction, keeping your mouth only slightly open.",
+      "End by letting your jaw hang completely loose for a few breaths."
+    ],
+    "precautions": [
+      "Keep every movement slow and well within a comfortable range. Skip or modify any part that causes discomfort, and stop the whole routine if you feel sharp pain."
+    ]
+  },
+  {
+    "id": "seated-neck-side-reach",
+    "title": "Seated Neck Side Reach",
+    "description": "A simple seated stretch that adds a gentle arm reach to deepen the release along the side of the neck.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "neck",
+    "category": "neckMobility",
+    "icon": "height",
+    "videoAsset": "assets/videos/seated-neck-side-reach.mp4",
+    "instructions": [
+      "Sit tall and reach your right arm down and slightly behind you.",
+      "Tilt your head to the left, feeling a light stretch along the right side of your neck.",
+      "Hold for 15 to 20 seconds, breathing normally.",
+      "Return to center and repeat on the other side."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "isometric-neck-resistance-four-way",
+    "title": "Isometric Neck Resistance \u2014 Four Directions",
+    "description": "A hand-resisted strengthening exercise that builds stability in the neck muscles from every direction.",
+    "durationSeconds": 120,
+    "difficulty": "intermediate",
+    "bodyPart": "neck",
+    "category": "neckMobility",
+    "icon": "fitness_center",
+    "videoAsset": "assets/videos/isometric-neck-resistance-four-way.mp4",
+    "instructions": [
+      "Place your palm on your forehead and gently push your head forward into it without letting your head move. Hold 5 seconds.",
+      "Place your palm on the back of your head and push backward into it. Hold 5 seconds.",
+      "Place your palm on the side of your head and push sideways into it. Hold 5 seconds, then switch sides.",
+      "Rest for 10 seconds and repeat the full sequence twice more."
+    ],
+    "precautions": [
+      "Use gentle, steady pressure \u2014 your head shouldn't actually move during any of the holds. Skip this exercise if you have a diagnosed neck or disc condition without a professional's guidance."
+    ]
+  },
+  {
+    "id": "chin-nod-deep-flexor-curl",
+    "title": "Chin Nod Deep Flexor Curl",
+    "description": "A small, precise nodding motion that targets the deep stabilizing muscles at the front of the neck, distinct from a full chin tuck.",
+    "durationSeconds": 90,
+    "difficulty": "intermediate",
+    "bodyPart": "neck",
+    "category": "neckMobility",
+    "icon": "expand_more",
+    "videoAsset": "assets/videos/chin-nod-deep-flexor-curl.mp4",
+    "instructions": [
+      "Lie on your back with your knees bent and head in a neutral position.",
+      "Gently nod your chin down and in, as if gesturing a very small \u2018yes\u2019, without lifting your head off the ground.",
+      "Hold the small curl for 5 seconds, keeping the rest of your neck relaxed.",
+      "Release slowly and repeat 10 times."
+    ],
+    "precautions": [
+      "Keep the motion small and controlled \u2014 this is not a full head lift. Stop if you feel strain rather than a light muscular effort."
+    ]
+  },
+  {
+    "id": "prone-neck-extension-hold",
+    "title": "Prone Neck Extension Hold",
+    "description": "A face-down strengthening hold for the muscles that extend and support the back of the neck.",
+    "durationSeconds": 120,
+    "difficulty": "advanced",
+    "bodyPart": "neck",
+    "category": "neckMobility",
+    "icon": "height",
+    "videoAsset": "assets/videos/prone-neck-extension-hold.mp4",
+    "instructions": [
+      "Lie face down with your forehead resting on the floor or a folded towel.",
+      "Gently lift your head a few inches, keeping your gaze down toward the floor.",
+      "Hold the lifted position for 5 seconds, then lower slowly.",
+      "Repeat 8 to 10 times, resting between reps as needed."
+    ],
+    "precautions": [
+      "Lift only a small amount \u2014 this should feel like light effort, not strain. Avoid this exercise if you have a neck injury, and stop immediately if you feel pain or dizziness."
+    ]
+  },
+  {
+    "id": "combined-neck-mobility-flow",
+    "title": "Combined Neck Mobility Flow",
+    "description": "A longer flowing sequence that moves through tilts, turns, and circles in order, building full-range control.",
+    "durationSeconds": 180,
+    "difficulty": "advanced",
+    "bodyPart": "neck",
+    "category": "neckMobility",
+    "icon": "sync",
+    "videoAsset": "assets/videos/combined-neck-mobility-flow.mp4",
+    "instructions": [
+      "Start with 5 slow chin tucks, holding each for 2 seconds.",
+      "Move into 5 slow tilts to each side, pausing briefly at the stretch.",
+      "Continue with 5 slow turns to each side, going only as far as comfortable.",
+      "Finish with 3 gentle full circles in each direction, moving slowly throughout."
+    ],
+    "precautions": [
+      "Keep every movement slow and pain-free. If you have a diagnosed neck or disc condition, skip the full circles and focus on the tilts and turns instead."
+    ]
+  },
+  {
+    "id": "standing-shoulder-shrugs",
+    "title": "Standing Shoulder Shrugs",
+    "description": "A simple lift-and-release movement that warms up the shoulders and relieves tension carried at the top of the trapezius.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "shoulders",
+    "category": "shoulderPosture",
+    "icon": "height",
+    "videoAsset": "assets/videos/standing-shoulder-shrugs.mp4",
+    "instructions": [
+      "Stand tall with your arms relaxed at your sides.",
+      "Slowly lift both shoulders up toward your ears.",
+      "Hold for 2 seconds, then let them drop and release completely.",
+      "Repeat 10 to 12 times at a slow, controlled pace."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "prone-y-t-w-raises",
+    "title": "Prone Y-T-W Raises",
+    "description": "A face-down sequence that strengthens the upper back muscles responsible for pulling rounded shoulders into better alignment.",
+    "durationSeconds": 120,
+    "difficulty": "intermediate",
+    "bodyPart": "shoulders",
+    "category": "shoulderPosture",
+    "icon": "open_in_full",
+    "videoAsset": "assets/videos/prone-y-t-w-raises.mp4",
+    "instructions": [
+      "Lie face down with your arms extended overhead in a \u2018Y\u2019 shape, thumbs pointing up.",
+      "Lift your arms slightly off the floor, squeezing your shoulder blades, then lower. Repeat 8 times.",
+      "Move your arms out to a \u2018T\u2019 shape and repeat the same lift-and-lower 8 times.",
+      "Finally, bend your elbows into a \u2018W\u2019 shape near your sides and repeat 8 more lifts."
+    ],
+    "precautions": [
+      "Lift only a small amount using your back muscles, not momentum. Stop if you feel pinching in your shoulders or pain in your lower back."
+    ]
+  },
+  {
+    "id": "standing-wall-slide",
+    "title": "Standing Wall Slide",
+    "description": "A controlled sliding movement against a wall that trains the shoulder blades to move smoothly through a full range.",
+    "durationSeconds": 90,
+    "difficulty": "intermediate",
+    "bodyPart": "shoulders",
+    "category": "shoulderPosture",
+    "icon": "unfold_more",
+    "videoAsset": "assets/videos/standing-wall-slide.mp4",
+    "instructions": [
+      "Stand with your back against a wall and arms raised into a goalpost position, elbows and wrists touching the wall.",
+      "Slowly slide your arms upward as far as you can while keeping contact with the wall.",
+      "Slide back down to the starting position with control.",
+      "Repeat 10 to 12 times, keeping the movement slow throughout."
+    ],
+    "precautions": [
+      "If your arms lose contact with the wall, that's your comfortable range for today \u2014 don't force it further."
+    ]
+  },
+  {
+    "id": "prone-superman-hold",
+    "title": "Prone Superman Hold",
+    "description": "A face-down strengthening hold for the whole back line that supports better posture throughout the day.",
+    "durationSeconds": 120,
+    "difficulty": "advanced",
+    "bodyPart": "shoulders",
+    "category": "shoulderPosture",
+    "icon": "fitness_center",
+    "videoAsset": "assets/videos/prone-superman-hold.mp4",
+    "instructions": [
+      "Lie face down with your arms extended in front of you.",
+      "Simultaneously lift your arms, chest, and legs a few inches off the floor.",
+      "Hold the lifted position for 5 seconds, breathing steadily.",
+      "Lower with control and rest for a few seconds. Repeat 8 times."
+    ],
+    "precautions": [
+      "Lift only as high as feels comfortable and controlled. Avoid this exercise if you have lower back pain or a spinal condition."
+    ]
+  },
+  {
+    "id": "sculpting-jawline-contour-massage",
+    "title": "Sculpting Jawline Contour Massage",
+    "description": "A firmer, more deliberate stroking massage along the jawline that builds on simpler jaw massage techniques.",
+    "durationSeconds": 150,
+    "difficulty": "intermediate",
+    "bodyPart": "jawline",
+    "category": "facialMassage",
+    "icon": "swipe",
+    "videoAsset": "assets/videos/sculpting-jawline-contour-massage.mp4",
+    "instructions": [
+      "Warm your hands and apply a small amount of moisturizer or oil if you like.",
+      "Starting at your chin, use your knuckles to sweep firmly along your jawline toward your ear.",
+      "Repeat the sweeping motion 10 times on each side, keeping pressure firm but comfortable.",
+      "Finish by gently pressing along the jawline from chin to ear once more on each side."
+    ],
+    "precautions": [
+      "Keep pressure firm but never painful, and avoid this massage over active breakouts or irritated skin."
+    ]
+  },
+  {
+    "id": "neck-to-collarbone-lymphatic-sweep",
+    "title": "Neck-to-Collarbone Lymphatic Sweep",
+    "description": "A fuller lymphatic drainage sequence that extends the basic facial technique down through the neck to the collarbone.",
+    "durationSeconds": 180,
+    "difficulty": "intermediate",
+    "bodyPart": "fullFace",
+    "category": "facialMassage",
+    "icon": "waves",
+    "videoAsset": "assets/videos/neck-to-collarbone-lymphatic-sweep.mp4",
+    "instructions": [
+      "Begin with light, sweeping strokes from your jaw down the sides of your neck.",
+      "Continue the strokes down to your collarbone, using very light pressure throughout.",
+      "Repeat the full jaw-to-collarbone sweep 10 times on each side.",
+      "Finish with a few gentle presses just above the collarbone, where lymph naturally drains."
+    ],
+    "precautions": [
+      "Use light pressure only \u2014 lymphatic massage should never hurt or leave marks. Avoid this if you have a thyroid condition, swollen lymph nodes, or any active skin infection, and check with a doctor first if you have a diagnosed lymphatic condition."
+    ]
+  },
+  {
+    "id": "full-face-sculpting-sequence",
+    "title": "Full-Face Sculpting Sequence",
+    "description": "A longer, complete massage routine that moves through the forehead, cheeks, and jaw in one continuous sequence.",
+    "durationSeconds": 240,
+    "difficulty": "advanced",
+    "bodyPart": "fullFace",
+    "category": "facialMassage",
+    "icon": "spa",
+    "videoAsset": "assets/videos/full-face-sculpting-sequence.mp4",
+    "instructions": [
+      "Start with 30 seconds of circular pressure over your forehead and temples.",
+      "Move to your cheeks for 30 seconds of upward circular strokes.",
+      "Continue to your jawline for 30 seconds of firm sweeping strokes toward your ears.",
+      "Finish with a minute of light, sweeping strokes down your neck to help with drainage."
+    ],
+    "precautions": [
+      "Use light-to-firm pressure depending on the area, and skip any zone with active breakouts, irritation, or sunburn. Stop entirely if any part of this routine causes pain."
+    ]
+  },
+  {
+    "id": "temple-to-jaw-tension-release",
+    "title": "Temple-to-Jaw Tension Release Massage",
+    "description": "A longer, more deliberate massage connecting the temples, cheeks, and jaw \u2014 areas that often hold tension together.",
+    "durationSeconds": 180,
+    "difficulty": "advanced",
+    "bodyPart": "fullFace",
+    "category": "facialMassage",
+    "icon": "pan_tool",
+    "videoAsset": "assets/videos/temple-to-jaw-tension-release.mp4",
+    "instructions": [
+      "Press firmly but gently at your temples with two fingers, holding for 10 seconds.",
+      "Move to slow circular pressure along your cheekbones for 30 seconds.",
+      "Continue with firm circular pressure along your jaw muscles for 30 seconds, focusing on any tight spots.",
+      "Finish by returning to your temples for another 10-second hold, then take a few slow breaths."
+    ],
+    "precautions": [
+      "Ease off pressure over any spot that feels sharp rather than a dull, releasing tension. Skip this massage if you have a migraine in progress or a recent head or facial injury."
+    ]
+  },
+  {
+    "id": "equal-breathing",
+    "title": "Equal Breathing",
+    "description": "A simple, evenly-paced breathing pattern, sometimes called Sama Vritti, that's a gentle entry point into structured breathwork.",
+    "durationSeconds": 120,
+    "difficulty": "beginner",
+    "bodyPart": "wholeBody",
+    "category": "breathing",
+    "icon": "air",
+    "instructions": [
+      "Sit comfortably and let your shoulders relax.",
+      "Inhale slowly through your nose for a count of 4.",
+      "Exhale slowly through your nose for the same count of 4.",
+      "Continue this even rhythm for the full session, adjusting the count if 4 feels too short or too long."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "four-seven-eight-breathing",
+    "title": "4-7-8 Breathing",
+    "description": "A popular breathing rhythm with a longer hold and exhale than equal breathing, often used to unwind before sleep.",
+    "durationSeconds": 150,
+    "difficulty": "intermediate",
+    "bodyPart": "wholeBody",
+    "category": "breathing",
+    "icon": "nightlight_round",
+    "instructions": [
+      "Sit or lie comfortably and let your first breath out fully.",
+      "Inhale quietly through your nose for a count of 4.",
+      "Hold your breath for a count of 7.",
+      "Exhale completely through your mouth for a count of 8, then repeat the cycle 4 times."
+    ],
+    "precautions": [
+      "Shorten the counts (keeping the same ratio) if 7 seconds feels too long to hold. Breathe naturally instead if you have a respiratory or cardiovascular condition or feel lightheaded."
+    ]
+  },
+  {
+    "id": "alternate-nostril-breathing",
+    "title": "Alternate Nostril Breathing",
+    "description": "A traditional technique, known as Nadi Shodhana, that uses a simple hand position to alternate airflow and requires more coordination than basic breathing exercises.",
+    "durationSeconds": 180,
+    "difficulty": "advanced",
+    "bodyPart": "wholeBody",
+    "category": "breathing",
+    "icon": "swap_horiz",
+    "instructions": [
+      "Sit comfortably and rest your left hand on your knee.",
+      "Close your right nostril with your right thumb and inhale slowly through your left nostril.",
+      "Close your left nostril with your ring finger, release your thumb, and exhale through your right nostril.",
+      "Inhale through the right nostril, then switch and exhale through the left \u2014 continue alternating for the full session."
+    ],
+    "precautions": [
+      "Breathe only through your nose and stop if you feel short of breath or lightheaded. Skip this exercise if you have a cold, sinus congestion, or a respiratory condition."
+    ]
+  },
+  {
+    "id": "three-part-breath-extended-hold",
+    "title": "Three-Part Breath with Extended Hold",
+    "description": "A longer, layered breathing practice that fills the belly, ribs, and chest in sequence before an extended hold.",
+    "durationSeconds": 210,
+    "difficulty": "advanced",
+    "bodyPart": "wholeBody",
+    "category": "breathing",
+    "icon": "self_improvement",
+    "instructions": [
+      "Sit comfortably and place one hand on your belly, one on your ribs.",
+      "Inhale in three stages: fill your belly first, then your ribs, then your upper chest.",
+      "Hold gently for a count of 4 at the top of the breath.",
+      "Exhale slowly and completely, releasing chest, then ribs, then belly. Repeat 6 times."
+    ],
+    "precautions": [
+      "Keep any breath hold gentle and brief \u2014 release early if it feels forced. Breathe naturally without holding if you have a respiratory or cardiovascular condition, are pregnant, or feel lightheaded at any point."
+    ]
+  },
+  {
+    "id": "standing-side-bend-stretch",
+    "title": "Standing Side Bend Stretch",
+    "description": "A simple standing stretch that lengthens the side of the torso and complements the neck and shoulder work in other exercises.",
+    "durationSeconds": 60,
+    "difficulty": "beginner",
+    "bodyPart": "wholeBody",
+    "category": "stretching",
+    "icon": "swap_horiz",
+    "videoAsset": "assets/videos/standing-side-bend-stretch.mp4",
+    "instructions": [
+      "Stand with feet hip-width apart and reach your right arm overhead.",
+      "Lean gently to the left, feeling a stretch along your right side.",
+      "Hold for 15 to 20 seconds, breathing normally.",
+      "Return to center and repeat on the other side."
+    ],
+    "precautions": []
+  },
+  {
+    "id": "thread-the-needle-stretch",
+    "title": "Thread the Needle Stretch",
+    "description": "A rotational floor stretch that opens the upper back and shoulder on one side at a time.",
+    "durationSeconds": 90,
+    "difficulty": "intermediate",
+    "bodyPart": "shoulders",
+    "category": "stretching",
+    "icon": "swipe",
+    "videoAsset": "assets/videos/thread-the-needle-stretch.mp4",
+    "instructions": [
+      "Start on your hands and knees.",
+      "Slide your right arm underneath your body, palm up, letting your right shoulder and head rest on the floor.",
+      "Hold the position for 20 to 30 seconds, breathing slowly.",
+      "Return to the starting position and repeat on the other side."
+    ],
+    "precautions": [
+      "Move into the stretch slowly and stop if you feel any pinching in your neck or shoulder."
+    ]
+  },
+  {
+    "id": "standing-chest-shoulder-rotation-stretch",
+    "title": "Standing Chest and Shoulder Rotation Stretch",
+    "description": "A gentle, moving stretch that combines chest opening with shoulder rotation, rather than holding one static position.",
+    "durationSeconds": 90,
+    "difficulty": "intermediate",
+    "bodyPart": "shoulders",
+    "category": "stretching",
+    "icon": "rotate_right",
+    "videoAsset": "assets/videos/standing-chest-shoulder-rotation-stretch.mp4",
+    "instructions": [
+      "Stand tall and clasp your hands behind your lower back.",
+      "Gently lift your clasped hands while opening your chest and squeezing your shoulder blades together.",
+      "Slowly rotate your torso to look over one shoulder, then the other, keeping your hands clasped.",
+      "Continue alternating sides slowly for 8 to 10 rotations."
+    ],
+    "precautions": [
+      "Keep the stretch gentle \u2014 you shouldn't feel strain in your shoulders or lower back. Skip this exercise if you have a shoulder injury."
+    ]
+  },
+  {
+    "id": "full-upper-body-flow-stretch",
+    "title": "Full Upper Body Flow Stretch",
+    "description": "A longer, sequenced stretch that flows through the neck, shoulders, chest, and upper back in one continuous routine.",
+    "durationSeconds": 210,
+    "difficulty": "advanced",
+    "bodyPart": "wholeBody",
+    "category": "stretching",
+    "icon": "loop",
+    "instructions": [
+      "Start with a 20-second ear-to-shoulder stretch on each side.",
+      "Move into a 20-second doorway or wall chest opener.",
+      "Continue with a 20-second cross-body shoulder stretch on each arm.",
+      "Finish with 20 seconds of cat-cow spinal movement to release the upper back."
+    ],
+    "precautions": [
+      "Move between positions slowly and skip any step that doesn't feel right for your body today. Stop the whole sequence if any part causes pain rather than a gentle stretch."
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shown under each widget's preview in the system's
+         add-widget picker (long-press home screen → Widgets). -->
+    <string name="hydration_widget_description">Log water and see today\'s hydration progress without opening ChadMate.</string>
+    <string name="skincare_widget_description">Check off skincare steps and see today\'s progress without opening ChadMate.</string>
+</resources>

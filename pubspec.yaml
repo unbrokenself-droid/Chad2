@@ -1,0 +1,108 @@
+name: chadmate
+description: "A Flutter application for guided facial fitness routines."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.3
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+  # Resolves the device's real IANA timezone name for
+  # AppNotifications._ensureLocalTimezone (lib/services/app_notifications.dart).
+  # Version pinned from memory, not verified against pub.dev in this
+  # environment (no network access to it) — running `flutter pub add
+  # flutter_timezone` locally will resolve and pin the current version
+  # correctly instead of trusting this number.
+  flutter_timezone: ^4.1.1
+  # Backs InAppPurchaseRepository (lib/services/in_app_purchase_repository.dart).
+  # Version pinned from memory, not verified against pub.dev in this
+  # environment (no network access to it) — run `flutter pub outdated`
+  # locally and bump if a newer 3.x is available before relying on it.
+  in_app_purchase: ^3.2.0
+  # Opens Google Play's native subscription management screen from
+  # SubscriptionManagementScreen — Play policy requires an in-app path
+  # to cancellation, and Play's own screen is where the actual
+  # cancellation has to happen.
+  # Version pinned from memory, not verified against pub.dev in this
+  # environment — `flutter pub add url_launcher` will resolve the
+  # current one properly.
+  url_launcher: ^6.3.1
+  # Backs the Rate App row's native review prompt
+  # (SettingsScreen -> RateAppService), falling back to
+  # openStoreListing() when the native prompt isn't available.
+  # Version pinned from memory, not verified against pub.dev in this
+  # environment — `flutter pub add in_app_review` will resolve the
+  # current one properly.
+  in_app_review: ^2.0.10
+  # Backs the About screen's version/build number display.
+  # Version pinned from memory, not verified against pub.dev in this
+  # environment — `flutter pub add package_info_plus` will resolve
+  # the current one properly.
+  package_info_plus: ^8.1.2
+  # Plays each exercise's short looping demo clip on
+  # ExerciseDetailsScreen (ExerciseVideoPreview) from the bundled
+  # assets/videos/ files.
+  # Version pinned from memory, not verified against pub.dev in this
+  # environment (no network access to it) — running `flutter pub add
+  # video_player` locally will resolve and pin the current version
+  # correctly instead of trusting this number.
+  video_player: ^2.9.2
+  # Backs TtsExerciseNarrator (lib/services/tts_exercise_narrator.dart)
+  # — reads each exercise's title and instructions aloud.
+  # Version pinned from memory, not verified against pub.dev in this
+  # environment (no network access to it) — running `flutter pub add
+  # flutter_tts` locally will resolve and pin the current version
+  # correctly instead of trusting this number.
+  flutter_tts: ^4.2.0
+  # Backs HomeWidgetSyncService — pushes hydration/skincare progress
+  # to the two Android home-screen widgets and reads back any taps
+  # logged while the app wasn't open.
+  # Version pinned from memory, not verified against pub.dev in this
+  # environment (no network access to it) — running `flutter pub add
+  # home_widget` locally will resolve and pin the current version
+  # correctly instead of trusting this number.
+  home_widget: ^0.7.0
+  # Backs BackgroundMusicService — loops a bundled track during a
+  # workout session, independent of TtsExerciseNarrator's speech
+  # playback (flutter_tts and audioplayers are separate platform
+  # audio sessions, so the two mix rather than one blocking the
+  # other).
+  # Version pinned from memory, not verified against pub.dev in this
+  # environment (no network access to it) — running `flutter pub add
+  # audioplayers` locally will resolve and pin the current version
+  # correctly instead of trusting this number.
+  audioplayers: ^6.1.0
+  # Backs AdsManager (lib/services/ads_manager.dart) — AdMob banner,
+  # interstitial, and rewarded ads.
+  # Version pinned from memory, not verified against pub.dev in this
+  # environment (no network access to it) — running `flutter pub add
+  # google_mobile_ads` locally will resolve and pin the current
+  # version correctly instead of trusting this number.
+  google_mobile_ads: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  # Backs test/test_helpers.dart's InMemorySharedPreferencesAsync —
+  # already a transitive dependency of shared_preferences itself, so
+  # `any` resolves to whatever version that already pulls in rather
+  # than risking a solver conflict from a guessed pin.
+  shared_preferences_platform_interface: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/exercises.json
+    - assets/videos/
+    - assets/thumbnails/
+    - assets/images/
+    - assets/images/coach/
+    - assets/images/collections/
+    - assets/music/
